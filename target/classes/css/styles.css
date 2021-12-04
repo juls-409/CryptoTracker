@@ -1,0 +1,12 @@
+BorderPane{
+    -fx-background-color: #222831;
+}
+
+HBox{
+    -fx-background-color: #393E46;
+    -fx-background-radius:50;
+    -fx-alignment: center-left;
+}
+VBox{
+    -fx-spacing:20px;
+}

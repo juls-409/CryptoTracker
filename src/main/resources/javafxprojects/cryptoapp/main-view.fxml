@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="600.0" stylesheets="@../../css/styles.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxprojects.cryptoapp.MainController">
+   <top>
+      <ImageView fitHeight="40.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true" scaleX="3.0" scaleY="3.0" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../images/text-1637705213363.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="30.0" />
+         </BorderPane.margin>
+         <effect>
+            <ColorAdjust brightness="-0.19" contrast="-1.0" hue="-0.03" saturation="-0.14" />
+         </effect>
+      </ImageView>
+   </top>
+   <center>
+      <VBox prefHeight="513.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Bitcoin.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelBtc" alignment="TOP_LEFT" text="\$40000000" textFill="WHITE">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Ethereum.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelEth" text="\$" textFill="WHITE">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/dogecoin-doge-logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelDoge" text="\$" textFill="WHITE">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+
+
+   </center>
+</BorderPane>
